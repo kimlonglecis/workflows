@@ -11,5 +11,9 @@
     "url": "?.git"
   },
   "author": "Kim Long Le",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7"
+  }
 }
