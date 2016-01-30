@@ -19,14 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 2233,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -35,18 +27,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 185.0,
-		"last_filter": "git cus",
+		"height": 129.0,
+		"last_filter": "git push",
 		"selected_items":
 		[
-			[
-				"git cus",
-				"Git: Custom Command"
-			],
-			[
-				"git ",
-				"Git: Custom Command"
-			],
 			[
 				"git push",
 				"Git: Push"
@@ -58,6 +42,22 @@
 			[
 				"git add",
 				"Git: Add All"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git ",
+				"Git: Custom Command"
 			],
 			[
 				"git status",
@@ -299,27 +299,24 @@
 	[
 		"/C/Users/Long Work/Desktop/workflows",
 		"/C/Users/Long Work/Desktop/workflows/builds",
-		"/C/Users/Long Work/Desktop/workflows/builds/development/css",
-		"/C/Users/Long Work/Desktop/workflows/builds/development/js",
-		"/C/Users/Long Work/Desktop/workflows/builds/production",
-		"/C/Users/Long Work/Desktop/workflows/components",
-		"/C/Users/Long Work/Desktop/workflows/components/coffee",
-		"/C/Users/Long Work/Desktop/workflows/components/sass",
-		"/C/Users/Long Work/Desktop/workflows/components/scripts"
+		"/C/Users/Long Work/Desktop/workflows/builds/development",
+		"/C/Users/Long Work/Desktop/workflows/builds/production"
 	],
 	"file_history":
 	[
-		"/C/Users/Long Work/Desktop/workflows/builds/production/css/style.css",
+		"/C/Users/Long Work/Desktop/workflows/gulpfile.js",
 		"/C/Users/Long Work/Desktop/workflows/builds/development/js/data.json",
+		"/C/Users/Long Work/Desktop/workflows/builds/production/js/data.json",
 		"/C/Users/Long Work/Desktop/workflows/builds/development/index.html",
+		"/C/Users/Long Work/Desktop/workflows/builds/production/index.html",
+		"/C/Users/Long Work/Desktop/workflows/package.json",
+		"/C/Users/Long Work/Desktop/workflows/builds/development/css/style.css",
+		"/C/Users/Long Work/Desktop/workflows/components/sass/_variables.scss",
+		"/C/Users/Long Work/Desktop/workflows/builds/production/css/style.css",
 		"/C/Users/Long Work/Desktop/workflows/components/sass/style.scss",
 		"/C/Users/Long Work/Desktop/workflows/components/coffee/tagline.coffee",
-		"/C/Users/Long Work/Desktop/workflows/components/sass/_variables.scss",
 		"/C/Users/Long Work/Desktop/workflows/components/scripts/pixgrid.js",
-		"/C/Users/Long Work/Desktop/workflows/builds/development/css/style.css",
 		"/C/Users/Long Work/Desktop/workflows/css/style.css",
-		"/C/Users/Long Work/Desktop/workflows/package.json",
-		"/C/Users/Long Work/Desktop/workflows/gulpfile.js",
 		"/C/Users/Long Work/Desktop/workflows/builds/development/js/script.js",
 		"/C/Users/Long Work/Desktop/workflows/components/scripts/tagline.js",
 		"/C/Users/Long Work/Desktop/workflows/.gitignore",
@@ -346,7 +343,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -360,6 +357,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"json",
 			"builds/development/",
 			"var",
 			"Buy Now",
@@ -392,102 +390,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								696,
-								685
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Seti_UI/icons/Langs/Gulpfile JS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -528,7 +432,7 @@
 	},
 	"output.git":
 	{
-		"height": 27.0
+		"height": 161.0
 	},
 	"output.sftp":
 	{
